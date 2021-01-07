@@ -14,16 +14,18 @@ def auRevoir():
     """
     print("\n\n\nAu revoir\n\nFin du programme")
 
-def AfficherTableMultiplication(entier): 
+def AfficherTableMultiplication(n, p, entier): 
     """
     affiche la table de multiplication et un saut de ligne
     Entrées : 
+        n : Valeur de depart
+        p : Valeur d'arrivee
         entier : entier dont on souhaite connaitre la table de multiplications
     Sortie :
         Affichage de la table de multiplication
     """
-    for multiplier in range(1,11): # de 1, 2, 3...9 à 10
-        result = entier*multiplier  # on calcule l'entier multiplie par 1, 2, 3...9 à 10
+    for multiplier in range(n,p+1): # de n à p
+        result = entier*multiplier  # on calcule l'entier multiplie
         print(entier, "x", multiplier, "=", result) # on affiche chaque ligne de la table de multiplication avec les valeurs correspondantes
     print() # on saute une ligne
 
@@ -34,10 +36,12 @@ def AfficherTableMultiplication(entier):
 entier_positif = True
 
 while (entier_positif): # Tant que l'entier en input est positif
-    input_entier = int(input("Entier > ")) # L'utilisateur donne l'entier pour connaître la table de multiplication lui correspondant
+    e = int(input("Table de ? ")) # L'utilisateur donne l'entier pour connaître la table de multiplication lui correspondant
+    n = int(input(f"Quelle valeur de départ pour la table de {e} ? "))
+    p = int(input(f"Quelle valeur d'arrivée pour la table de {e} ? "))
 
-    if (input_entier <= -1): # si la valeur entre par l'utilisateur est negative
+    if (e <= -1): # si la valeur entre par l'utilisateur est negative
         entier_positif = False # on met la variable sur false et donc on arrête la boucle while
         auRevoir() # on quitte le programme
     else: # sinon
-        AfficherTableMultiplication(input_entier) # on affiche la table de multiplication
+        AfficherTableMultiplication(n, p, e) # on affiche la table de multiplication
