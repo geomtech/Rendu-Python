@@ -34,12 +34,13 @@ def losangeVide(N, motif):
           *   *
            * *
             *
-    """
-    N_Triangle = int(N/2) # on divise la hauteur par 2 pour avoir la hauteur d'un cote seulement (partie haute ou partie basse) soit deux triangles
+    """ # on divise la hauteur par 2 pour avoir la hauteur d'un cote seulement (partie haute ou partie basse) soit deux triangles
     losange = [] # init tableau dans lequel se trouvera le losange
 
-    for i in reversed(range(1, N_Triangle)): # boucle partant de N/2 à 1
+    for i in reversed(range(1, N)): # boucle partant de N à 1
         losange.append(' '*i + motif) # on ajoute le string généré au tableau losange
+
+    losange.append(motif) # ligne du millieu
 
     for i in range(0, len(losange)): # boucle allant de 0 à la taille de la triangle haut du losange
         if (i > 0): # pour n'afficher que un motif pour la première et dernière ligne du losange
@@ -47,10 +48,8 @@ def losangeVide(N, motif):
             losange[i] = losange[i] + spaces[:-1] + motif # on modifie la ligne pour faire la partie droite du losange et ajouter entre les deux motifs le vide
         print(losange[i]) # on affiche la ligne
 
-    print(motif, " "*N_Triangle, motif) # affiche la ligne du millieu
-
     # on genere le triangle bas pour compléter le losange
-    for i in reversed(range(0, len(losange))): # boucle partant de 0 à N/2
+    for i in reversed(range(0, len(losange)-1)): # boucle partant de 0 à N
         print(losange[i]) # on affiche la ligne
 
 ################################################
