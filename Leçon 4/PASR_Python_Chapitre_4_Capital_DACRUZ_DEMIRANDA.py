@@ -25,6 +25,10 @@ def CalculCapital(capital, taux, multiplicateur):
     capital = round(capital, 2)  # Arrondir a deux décimal la variable capital
     return [nbreAnnees, capital]
 
+################################################
+########## PROGRAMME PRINCIPAL  ################
+################################################
+
 capitalInitial = float(input("Quel est le capital initial ? ")) # Demande à l'utilisateur le capital initial
 taux = float(input("Quel est le taux d'intérêt annuel (Pour 2%, on attend 0.02) ? ")) # Demande à l'utilisateur le taux d'interet
 multiplicateur = float(input("Pour quel coefficient multiplicateur voulez vous avoir un prévision ? ")) # Demande à l'utilisateur le coefficient multiplicateur
