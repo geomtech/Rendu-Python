@@ -43,10 +43,9 @@ def analyseFile(file_path, word_to_find):
 
         return [word_founded, lines_with_word]
 
-def analyseDirectory(directory_path, word_to_find):
+def analyseDirectory(report_file, directory_path, word_to_find):
     """
-    """    
-
+    """
     directory_content = os.listdir(directory_path) # On liste les fichiers
 
     for content in directory_content: # Pour chaque fichier ou répertoire dans le répertoire
@@ -56,12 +55,19 @@ def analyseDirectory(directory_path, word_to_find):
             result_analyse = analyseFile(content_path, word_to_find) # On analyse le fichier
 
             if (result_analyse[0]):
-                print("\nDossier :", directory_path, "\n")
-                print("\n", os.path.basename(content_path), sep="")  # On affiche le nom du fichier
+                directory_str = "Dossier : " + directory_path + "\n"
+                filename_str = "\n" + str(os.path.basename(content_path)) + "\n"
+                report_file.write(directory_str)
+                report_file.write(filename_str)
+                
                 for line in result_analyse[1]:
-                    print(line.rstrip('\n'))
+                    if (line == result_analyse[1][-1]):
+                        line_str = line + "\n"
+                        report_file.write(line_str)
+                    else:
+                        report_file.write(line)
         elif (os.path.isdir(content_path)): # Si c'est un répertoire
-            analyseDirectory(content_path, word_to_find) # On analyse le répertoire
+            analyseDirectory(report_file, content_path, word_to_find) # On analyse le répertoire
 
 ################################################
 ############### MAIN PROGRAM  ##################
@@ -73,7 +79,14 @@ directory_path = os.path.join(os.getcwd(), directory_to_analyse)
 if (os.path.exists(directory_path)):  # Si le répertoire existe
     word_to_find = input("Mot à trouver > ")    
 
-    analyseDirectory(directory_path, word_to_find)
+    time_string_file = time.strftime("%d-%m-%Y-%H%M%S", time.localtime())
+    time_string = "Date : " + str(time.strftime("%d-%m-%Y %H:%M:%S", time.localtime())) + "\n"
+    report_filename = "report_" + str(time_string_file) + ".txt"
+
+    report_file = open(report_filename, "w", encoding="utf-8")
+    report_file.write(time_string)
+    analyseDirectory(report_file, directory_path, word_to_find)
+    report_file.close()
 else:
     print("Ce répertoire n'existe pas")
 

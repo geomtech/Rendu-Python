@@ -1,0 +1,1401 @@
+Date : 04-02-2021 19:30:51
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests11
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests11
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests11
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests11
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests11
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests11
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests11
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests11
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests12
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests12
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests12
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests12
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests12
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests12
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests12
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests12
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests13
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests13
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests13
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests13
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests13
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests13
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests13
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1\Tests13
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests1
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests21
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests21
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests21
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests21
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests21
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests21
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests21
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests21
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests22
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests22
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests22
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests22
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests22
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests22
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests22
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests22
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests23
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests23
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests23
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests23
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests23
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests23
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests23
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2\Tests23
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\Tests2
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests311
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests311
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests311
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests311
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests311
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests311
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests311
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests311
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests312
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests312
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests312
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests312
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests312
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests312
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests312
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\Tests312
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3131
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3131
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3131
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3131
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3131
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3131
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3131
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3131
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3132
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3132
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3132
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3132
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3132
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3132
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3132
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3132
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3133
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3133
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3133
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3133
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3133
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3133
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3133
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313\Tests3133
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31\tests313
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\tests31
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests32
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests32
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests32
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests32
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests32
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests32
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests32
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests32
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests33
+
+Boucles.pl
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests33
+
+Boucles2.TXT
+10:print "\n\nAffichage de la table de 7 avec une boucle for";
+16:print "\n\nAffichage de la table de 7 avec une boucle while";
+24:print "\n\nAffichage de la table de 7 avec une boucle until";
+33:print "\n\nAffichage de la table de 7 avec des raccourcis";
+34:print "\n$_ x 7 = " , $_*7 for (1..10);
+37:print "\n\n";
+40:print "\n$c x 7 = " , $c*7 while ($c++<10);
+43:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests33
+
+Comparaison-if-else.wps
+25:print "\n\nAu revoir\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests33
+
+Donnees-scalaires.pl
+9:print "\nBonjour tout le monde !"; # \n = saut de ligne
+12:print "\n2 + 3 = " , (2+3);
+13:print "\n2 - 3 = " , (2-3);
+14:print "\n2 x 3 = " , (2*3);
+15:print "\n2 / 3 = " , (2/3);
+16:print "\n18 mod 5 = " , (18%5); # reste de la divison de 18 par 5
+19:print "\n2^3 = " , (2**3); # 2 puissance 3, affiche 8
+22:print "\n" , 5 x 4; # x est opérateur de répétition, affiche 5555
+24:print "\n" , "toto" x 4; # affiche totototototototo
+26:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests33
+
+Fonctions-de-chaines.pl
+11:print "\n\nlength donne la longueur d'une chaine";
+12:print "\nLa chaine \"$P1\" contient " , length($P1) , " caractères";
+15:print "\n\nchop supprime le dernier caractère et le retourne";
+18:print "\nLe dernier caractère de \"$P1\" est $dernier";
+19:print "\nLa chaine \"$P1\" tronquée est $temp"; 
+23:print "\n\nchomp supprime le dernier caractère d'une chaine uniquement si c'est un retour à la ligne";
+35:print "\n\n$P6"; #affiche kikoukikoukikoukikoukikou
+40:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests33
+
+Saisir-valeur.12a.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests33
+
+Saisir-valeur.TXT
+9:print "\nComment tu t'appelles ?\n";
+12:print "\Hello $Prenom, nice to meet you";
+14:print "\n\nBye...\n\n";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3\Tests33
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
+Dossier : D:\OneDrive - GeomTech\Documents\GitHub\Rendu-Python\Leçon 6\zft\tests3
+
+Variables.pl
+19:print "\nLe prix TTC est $Pttc €\n"; 
+33:print "\nLe prix TTC est $Pttc €\n"; 
+42:print "\n$c1 $c2";
+44:print "\n\nAu revoir";
+
