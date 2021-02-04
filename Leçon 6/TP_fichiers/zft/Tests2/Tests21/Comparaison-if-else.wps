@@ -1,0 +1,27 @@
+#**********************************************#
+# Premiers essais en Perl de Guillaume Bourlet #
+# Auteur : Guillaume Bourlet                   #
+# Date 10/08/2010			       #
+# if et else		                       #
+# Comparaison Nombres et Chaines	       #
+#**********************************************#
+
+# Comparaison		Nombre (idem C)	Chaîne
+# Égal 			== 		eq
+# Différent 		!= 		ne
+# Inférieur 	    	< 		lt
+# Supérieur 	   	> 		gt
+# Inférieur ou égal	<= 		le
+# Supérieur ou égal 	>= 		ge
+
+$Prenom1 = "Guillaume";
+$Prenom2 = "Laurent";
+
+if ($Prenom1 lt $Prenom2)
+	{ print "$Prenom1 est avant $ Prenom2 dans l'ordre alpha"; }
+else
+	{ print "$Prenom2 est avant $ Prenom1 dans l'ordre alpha"; }
+
+print "\n\nAu revoir\n\n";
+
+

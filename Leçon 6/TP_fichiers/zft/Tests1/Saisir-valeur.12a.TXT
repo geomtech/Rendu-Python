@@ -1,0 +1,16 @@
+#**********************************************#
+# Premiers essais en Perl de Guillaume Bourlet #
+# Auteur : Guillaume Bourlet                   #
+# Date 10/08/2010			       #
+# Saisie de valeur			       #
+#**********************************************#
+
+# on saisit avec <STDIN>
+print "\nComment tu t'appelles ?\n";
+$Prenom = <STDIN>; # c'est la saisie
+chomp ($Prenom); # suppression du saut de ligne
+print "\Hello $Prenom, nice to meet you";
+
+print "\n\nBye...\n\n";
+
+

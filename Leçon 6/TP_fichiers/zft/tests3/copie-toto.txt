@@ -1,0 +1,11 @@
+toto est content de programmer en Perl
+toto fait du Perl quand il s'ennuie
+il va à la plage
+toto est content
+
+Ajout
+
+content est toto
+plage la à va il
+s'ennuie il quand Perl du fait toto
+Perl en programmer de content est toto

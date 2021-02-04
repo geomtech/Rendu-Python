@@ -1,0 +1,45 @@
+#**********************************************************************#
+# Fichier de test pour le cours de Perl sur les expressions régulières #
+# Auteur : Guillaume Bourlet	Date 16/08/2010			       #
+#**********************************************************************#
+
+Login GB - Mot de passe root
+Passe ton chemin
+root est un mauvais mot de passe
+Passez le carrefour et c'est tout droit
+GB demeure au Mée
+Je suis nase
+Elle a des yeux de braise
+Intéressant ce cours ?
+Voulez-vous coucher avec moi ce soir ? ça dépend...
+Chemin du répertoire Perl : home/homer/Perl
+Tu as fait un erreur de login, tu seras privé de perl pendant une semaine
+C'est marqué dans le fichier de LOG
+J'ai perdu ma table de Logs
+...Mon tel : 06 16 04 55 85
+Mon tel à l'anglo-saxonne : 0 616 045 585
+Monsieur PERLERARE est attendu à la garderie
+Une poire jaune
+Une poire pour la soif
+...Mon faux tel : 06 16 04 55 85 77
+CeciEstUneChaineAvecUnSeulMot
+La chaine qui suit est sans mot
+#{[|`\^@]}
+1225874
+192.123.185.21
+monIP=25.36.98.147
+blabla
+125 troiyjrto
+maison.jpg
+bateau.JPG
+le fichier moto.jpg est dans le dossier /images
+On y trouve aussi voiture.Jpeg
+	login : admin, pass : root
+ cette chaine débute par un espace
+j'ai perdu mon login
+.Cette ligne débute par un point, c'est bizarre
+Réunion 04/12/2011 à 13:30
+Réunion 4/12/2011 à 13:30
+Rdv à 15:30
+15/12/201012:25
+04/12/2011	13:30

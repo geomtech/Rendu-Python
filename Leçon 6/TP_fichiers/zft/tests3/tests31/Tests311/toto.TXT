@@ -1,0 +1,4 @@
+toto est content
+il va à la plage
+toto fait du Perl quand il s'ennuie
+toto est content de programmer en Perl
