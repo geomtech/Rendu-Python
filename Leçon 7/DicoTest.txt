@@ -1,0 +1,11 @@
+Dico = { "Jeux":"On peut définir le jeu comme une activité de loisirs d'ordre physique ou bien psychique, soumise à des règles conventionnelles, à laquelle on s'adonne pour se divertir, tirer du plaisir et de l'amusement." , \
+"Bouteille":"Récipient allongé à goulot étroit, en verre, en plastique, en métal ou en terre destiné aux liquides, notamment aux boissons" , \
+"Montre":"Une montre est un instrument de mesure du temps qui se porte sur soi." , \
+"Pied":"Partie terminale du membre inférieur, articulée avec la jambe, permettant l'appui au sol dans la station debout et la marche.", \
+"Table":"Meuble composé d'un plateau horizontal reposant sur un ou plusieurs pieds ou supports. \
+Servant notamment pour les repas" , \
+"Chaise":"Siège à dossier, sans bras" , \
+"Chaise2":"Siège à dossier, sans pied" , \
+"Fauteuil":"Siège à dossier et à bras pour une personne" , \
+"Commode":"Meuble à hauteur d'appui garni, le plus souvent, de tiroirs", \
+"Loup" : "Animal feroce"}
