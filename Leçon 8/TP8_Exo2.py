@@ -21,22 +21,91 @@ def au_revoir():
 
 def parse_file(filename: str, output_filename: str):
     output = []
+    capital_numbers = []
+    dots = []
+    three_dots = []
+    hexadecimal = []
+    chars_12_alphanumeric = []
+    contains_5_letters_a = []
+
+    output.append("""*************************************************
+PYTHON : Fichier de sortie de l'exercice 2 du TP4
+*************************************************
+    """)
 
     # Ouvre le fichier
     with open(filename, "r") as file_to_parse:
         for line in file_to_parse:
-            parse_line(line, output)
+            line = line.replace('\n', '')
+            if parse_capital_numbers(line):
+                capital_numbers.append(line)
+            if parse_dots(line):
+                dots.append(line)
+            if parse_three_dots(line):
+                three_dots.append(line)
+            if parse_hexadecimal(line):
+                hexadecimal.append(line)
+            if parse_12_chars_alphanumeric(line):
+                chars_12_alphanumeric.append(line)
+            if parse_contains_5_letters_a(line):
+                contains_5_letters_a.append(line)
 
-# Méthodes de parsing
-def parse_line(line, output):
-    if parse_capital_numbers(line):
+
+    output.append("""*****************************************************
+1.a : lignes contenant des chiffres ou des majuscules
+*****************************************************""")
+
+    count_1a = "***** " + str(len(capital_numbers)) + " lignes trouvees *****\n"
+    for line in capital_numbers:
         output.append(line)
-    if parse_dots(line):
+    output.append(count_1a)
+
+    output.append("""*********************************
+1.b : lignes contenant des points
+*********************************""")
+
+    count_1b = "***** " + str(len(dots)) + " lignes trouvees *****\n"
+    for line in dots:
         output.append(line)
-    if parse_three_dots(line):
+    output.append(count_1b)
+
+    output.append("""***********************************
+1.c : lignes contenant trois points
+***********************************""")
+
+    count_1c = "***** " + str(len(three_dots)) + " lignes trouvees *****\n"
+    for line in three_dots:
         output.append(line)
-    if parse_hexadecimal(line):
+    output.append(count_1c)
+
+    output.append("""**********************************************************************
+1.d : lignes contenant des nombres hexadecimaux separes par des blancs
+**********************************************************************""")
+
+    #count_1d = "***** " + str(len(hexadecimal)) + " lignes trouvees *****\n"
+    #for line in hexadecimal:
+    #    output.append(line)
+    #output.append(count_1d)
+
+    output.append("""**********************************************************************
+1.e : lignes contenant un mot d'au moins 12 caracteres alphanumeriques
+**********************************************************************""")
+
+    count_1e = "***** " + str(len(chars_12_alphanumeric)) + " lignes trouvees *****\n"
+    for line in chars_12_alphanumeric:
         output.append(line)
+    output.append(count_1e)
+
+    output.append("""*******************************************************************************
+1.f : lignes contenant exactement 5 lettres a (pas nécessairement successives)
+*******************************************************************************""")
+
+    count_1f = "***** " + str(len(contains_5_letters_a)) + " lignes trouvees *****\n"
+    for line in contains_5_letters_a:
+        output.append(line)
+    output.append(count_1f)
+
+    return output
 
 # Contient une majuscule ou un chiffre
 def parse_capital_numbers(line):
@@ -54,7 +123,7 @@ def parse_dots(line):
 
 # Contient trois points
 def parse_three_dots(line):
-    if re.search(r'\...', line):
+    if re.search(r'\.\.\.', line):
         return True
     return False
 
@@ -62,7 +131,21 @@ def parse_three_dots(line):
 # Contient un hexadécimal isolé
 # TODO
 def parse_hexadecimal(line):
-    if re.search(r'\s[A-F][0-9]\s', line):
+    if re.search(r'\A[0-9A-F]+\Z', line):
+        return True
+    return False
+
+
+# Contient un mot d'au moins 12 caractères alphanumériques
+def parse_12_chars_alphanumeric(line):
+    if re.search(r'[0-z]{12}', line):
+        return True
+    return False
+
+
+# Contient un mot d'au moins 12 caractères alphanumériques
+def parse_contains_5_letters_a(line):
+    if re.search(r'([^a]*a){5,5}', line):
         return True
     return False
 
@@ -81,7 +164,8 @@ def main():
     filename = args.filename
     output = args.output
 
-    parse_file(filename, output)
+    for line in parse_file(filename, output):
+        print(line)
 
 
 if __name__ == "__main__":
