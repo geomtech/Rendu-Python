@@ -36,6 +36,10 @@ def parse_file(filename: str, output_filename: str):
     contains_not_a_letter = []
     contains_not_spaces = []
     contains_not_int = []
+    contains_phone_number_format = []
+    contains_phone_number_format_dots = []
+    contains_phone_number_optional_zero = []
+    contains_phone_number_format_bis = []
 
     output.append("""*************************************************
 PYTHON : Fichier de sortie de l'exercice 2 du TP4
@@ -76,6 +80,14 @@ PYTHON : Fichier de sortie de l'exercice 2 du TP4
                 contains_not_spaces.append(line)
             if parse_not_decimal(line):
                 contains_not_int.append(line)
+            if parse_phone_number_format(line):
+                contains_phone_number_format.append(line)
+            if parse_phone_number_format_dots(line):
+                contains_phone_number_format_dots.append(line)
+            if parse_phone_number_optional_zero(line):
+                contains_phone_number_optional_zero.append(line)
+            if parse_phone_number_format_bis(line):
+                contains_phone_number_format_bis.append(line)
 
 
     output.append("""*****************************************************
@@ -213,6 +225,42 @@ PYTHON : Fichier de sortie de l'exercice 2 du TP4
         output.append(line)
     output.append(count_3c)
 
+    output.append("""*******************************************************************************
+4 : lignes qui débutent par un numéro de téléphone au format 01 23 45 67 89
+*******************************************************************************""")
+
+    count_4 = "***** " + str(len(contains_phone_number_format)) + \
+        " lignes trouvees *****\n"
+    for line in contains_phone_number_format:
+        output.append(line)
+    output.append(count_4)
+
+    output.append("""***********************************************************
+5 : idem 4 mais on peut avoir . ou - a la place des espaces
+***********************************************************""")
+
+    count_5 = "***** " + str(len(contains_phone_number_format_dots)) + " lignes trouvees *****\n"
+    for line in contains_phone_number_format_dots:
+        output.append(line)
+    output.append(count_5)
+
+    output.append("""******************************************************
+6 : idem 5 mais le 0 peut être entoure de parentheses
+******************************************************""")
+
+    count_6 = "***** " + str(len(contains_phone_number_optional_zero)) + " lignes trouvees *****\n"
+    for line in contains_phone_number_optional_zero:
+        output.append(line)
+    output.append(count_6)
+
+    output.append("""************************************************************************
+7 : terminent par un tel au format 0 123 456 789, espaces, - ou . et (0)
+************************************************************************""")
+
+    count_7 = "***** " + str(len(contains_phone_number_format_bis)) + " lignes trouvees *****\n"
+    for line in contains_phone_number_format_bis:
+        output.append(line)
+    output.append(count_7)
 
     return output
 
@@ -320,6 +368,35 @@ def parse_not_decimal(line):
     if re.search(r'^((?![0-9]+).)*$', line):
         return True
     return False
+
+
+# qui débutent par un numéro de téléphone au format 01 64 25 89 78
+def parse_phone_number_format(line):
+    if re.search(r'^(([0-9]{2})(\ )([0-9]{2})(\ )([0-9]{2})(\ )([0-9]{2})(\ )([0-9]{2}))', line):
+        return True
+    return False
+
+# idem mais à la place des espaces, on peut avoir des , ou des tirets (-)
+def parse_phone_number_format_dots(line):
+    if re.search(r'^(([0-9]{2})(\ |\-|\.)([0-9]{2})(\ |\-|\.)([0-9]{2})(\ |\-|\.)([0-9]{2})(\ |\-|\.)([0-9]{2}))', line):
+        return True
+    return False
+
+
+# idem 5 mais le numéro de téléphone débute nécessairement par 0. Ce 0 peut être entouré de parenthèses.
+def parse_phone_number_optional_zero(line):
+    if re.search(r'^(([0]|\(0\))([0-9]{1})(\ |\-|\.)([0-9]{2})(\ |\-|\.)([0-9]{2})(\ |\-|\.)([0-9]{2})(\ |\-|\.)([0-9]{2}))', line):
+        return True
+    return False
+
+
+# qui terminent par un numéro de téléphone au format 0 164 258 978, les espaces pouvant être 
+# remplacés par des points ou des tirets et le premier chiffre pouvant être entre parenthèses.
+def parse_phone_number_format_bis(line):
+    if re.search(r'(([0]|\(0\))(\ |\-|\.)([0-9]{3})(\ |\-|\.)([0-9]{3})(\ |\-|\.)([0-9]{3}))$', line):
+        return True
+    return False
+
 
 
 def main():
