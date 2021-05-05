@@ -160,13 +160,9 @@ totoAUneIPfixeQuiEst1.369.258.14IlEnEstContent
 ****************************************************************************
 1.f: lignes contenant exactement 5 lettres a(pas nécessairement successives)
 ****************************************************************************
-voila un mot qui contient au moins 12 caracteres alphanumeriques 1a2bc3d4e5f6
 1a2bc3d4e5f6g7 est un mot qui contient 14 caracteres alphanumeriques
-Voila un mot 1a2bc3d4e5f6g7 il contient 14 caracteres alphanumeriques
 cette ligne a contient a 5 fois a la lettre a
-aaaaaaaaaaaaaaa
-a a a a              aaaa    aa 
-***** 6 lignes trouvees *****
+***** 2 lignes trouvees *****
 
 *****************************************
 1.g: lignes contenant des crochets(] ou[)
@@ -179,14 +175,10 @@ capitaine [] est tres mechant
 *********************************************************
 1.h: lignes ne contenant que des lettres a et des espaces
 *********************************************************
-
-
-
 aaaaaaaaaaaaaaa
                 
 a a a a              aaaa    aa 
-
-***** 7 lignes trouvees *****
+***** 3 lignes trouvees *****
 
 ******************************************************************
 1.i: lignes contenant quelque chose qui ressemble a une adresse IP
@@ -204,17 +196,17 @@ totoAUneIPfixeQuiEst1.369.258.14IlEnEstContent
 *****************
 2.a: lignes vides
 *****************
-***** 0 lignes trouvees *****
+
+
+
+
+***** 4 lignes trouvees *****
 
 ********************
 2.b: lignes blanches
 ********************
-
-
-
                 
-
-***** 5 lignes trouvees *****
+***** 1 lignes trouvees *****
 
 *********************
 2.c: lignes non vides
