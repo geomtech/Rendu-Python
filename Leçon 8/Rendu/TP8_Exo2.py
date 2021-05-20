@@ -6,6 +6,8 @@
 # Date : 28/04/2021
 # Thème du script : Exo 2
 
+# Voir le readme avant exécution
+
 import argparse
 import re
 
